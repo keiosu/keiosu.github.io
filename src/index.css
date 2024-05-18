@@ -1,13 +1,24 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Daydream'
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+a {
+  text-decoration: none;
+}
+
+img.sprite {
+	image-rendering: pixelated;
+  width: 128px;
+  height: 128px;
+}
+
+@font-face{
+  font-family: "Daydream";
+  src: url("../fonts/Daydream.ttf") format("truetype");
 }
